@@ -23,7 +23,7 @@ body {
   padding: 1em;
 }
 .header a {
-  font-size: 64px;
+  font-size: 60px;
   color: var(--text-main-color);
 }
 
@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin: 5em 0;
+  margin-bottom: 5em;
 }
 .main .day {
   width: 320px;
