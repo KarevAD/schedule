@@ -48,9 +48,14 @@ body {
 .main .day .class {
   color: var(--text-main-color);
   border-bottom: 2px solid var(--text-main-color);
+  width: 100%;
 }
 .main .day .class:last-of-type {
   border: none;
+}
+
+img {
+  display: none;
 }
 
 .footer {
@@ -69,4 +74,15 @@ body {
 
 .hide {
   color: var(--bg-color) !important;
+}
+
+@media (min-width: 980px) {
+  img {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+  }
 }/*# sourceMappingURL=main.css.map */
