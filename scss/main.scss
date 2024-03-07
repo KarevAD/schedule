@@ -1,7 +1,10 @@
 :root {
-    --bg-color: #240051;
-    --bg-day-color: #FF820E;
+    --bg-color: #000000;
+    --bg-day-color: #ffffff;
     --text-main-color: #ffffff;
+    //--bg-color: #240051;
+    //--bg-day-color: #FF820E;
+    //--text-main-color: #ffffff;
 }
 
 * {
@@ -9,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    user-select: none;
 }
 
 body {
@@ -53,7 +57,6 @@ body {
                 font-size: 24px;
                 float: right;
                 display: none;
-                opacity: 0.9;
             }
         }
 
