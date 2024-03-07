@@ -37,7 +37,8 @@ body {
   margin-bottom: 5em;
 }
 .main .day {
-  width: 320px;
+  width: 30%;
+  min-width: 320px;
   margin-bottom: 1em;
 }
 .main .day .title, .main .day .class {

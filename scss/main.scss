@@ -37,7 +37,8 @@ body {
     justify-content: space-around;
     margin-bottom: 5em;
     .day {
-        width: 320px;
+        width: 30%;
+        min-width: 320px;
         margin-bottom: 1em;
         .title, .class {
             font-size: 32px;
