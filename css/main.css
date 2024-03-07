@@ -50,8 +50,17 @@ body {
   border-bottom: 2px solid var(--text-main-color);
   width: 100%;
 }
+.main .day .class #circle {
+  font-size: 24px;
+  float: right;
+  display: none;
+  opacity: 0.9;
+}
 .main .day .class:last-of-type {
   border: none;
+}
+.main .day .class:hover #circle {
+  display: block;
 }
 
 img {

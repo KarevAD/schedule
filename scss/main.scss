@@ -49,10 +49,22 @@ body {
             color: var(--text-main-color);
             border-bottom: 2px solid var(--text-main-color);
             width: 100%;
+            #circle {
+                font-size: 24px;
+                float: right;
+                display: none;
+                opacity: 0.9;
+            }
         }
 
         .class:last-of-type {
             border: none;
+        }
+
+        .class:hover {
+            #circle {
+                display: block;
+            }
         }
     }
 }
