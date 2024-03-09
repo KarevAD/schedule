@@ -1,7 +1,7 @@
 :root {
-    --bg-color: #000000;
-    --bg-day-color: #ffffff;
-    --text-main-color: #ffffff;
+    --bg-color: #111;
+    --bg-day-color: #eee;
+    --text-main-color: #eee;
     //--bg-color: #240051;
     //--bg-day-color: #FF820E;
     //--text-main-color: #ffffff;
@@ -39,7 +39,7 @@ body {
     .day {
         width: 30%;
         min-width: 320px;
-        margin-bottom: 1em;
+        margin-bottom: 5em;
         .title, .class {
             font-size: 32px;
             padding: 0.7rem;
@@ -54,11 +54,13 @@ body {
             color: var(--text-main-color);
             border-bottom: 2px solid var(--text-main-color);
             width: 100%;
+            height: 70px;
             #circle {
                 font-size: 24px;
                 float: right;
                 display: none;
             }
+            line-height: 52px;
         }
 
         .class:last-of-type {
